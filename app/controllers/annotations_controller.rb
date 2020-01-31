@@ -4,7 +4,7 @@ class AnnotationsController < ApplicationController
   # GET /annotations
   # GET /annotations.json
   def index
-    @annotations = Annotation.all
+    @annotations = Annotation.page(params[:page]).per(5)
   end
 
   # GET /annotations/1

@@ -21,6 +21,9 @@ gem "less-rails" #Sprockets (what Rails 3.1 uses for its asset pipeline) support
 # gem twitter bootsrap
 gem "twitter-bootstrap-rails"
 
+#Gem to paginate
+gem 'kaminari'
+
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.2'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
